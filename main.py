@@ -26,7 +26,10 @@ list of integers.
 
     """
     # TODO: Implement sum_of_squares_of_even
-    pass
+    ret = 0
+    for x in even_int_list:
+        ret += x*x
+    return ret
 
 # Main function
 def main():
